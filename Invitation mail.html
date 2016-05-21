@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+
+
+</head>
+<body>
+
+  <?php 
+  $obj =$_SESSION["data"];
+
+?>
+
+
+
+<div class="container col-md-5" style="border: 15px rgb(111, 176, 213) solid;padding: 16px;-ms-filter: 'progid:DXImageTransform.Microsoft.Alpha(Opacity=66)';filter: alpha(opacity=66);-moz-opacity: 0.66;-khtml-opacity: 0.66;opacity: 0.66;background: rgb(255,255,255);color: rgb(25,25,25);font-size: 14px;font-weight: inherit;font-family: 'Lucida Console', Monaco, monospace;font-style: inherit;text-decoration: inherit;text-align: center;line-height: 1.3em;">
+
+
+    <div><img src="http://www.nanoboat.in/Images/nblogo.png" img-responsive></div>
+
+
+    <div><p><h3>Thank you for choosing us.</h3></p> </div>
+
+    <div>
+      <p class="pull-left" style="margin-bottom: 20px;">Hello <b><?php echo $obj->firstName ?></b>,</p></br>
+      <div class="pull-left" style="margin-bottom: 20px;">Thank you to choose us this time for ITR. Your request will be processed within 2-3 business days.</div></br>
+      <div class="pull-left" style="margin-bottom: 20px;">You can always email us at <b>contact@nanoboat.in</b> if you have any question.</div></br>
+      <hr style="color:black;"><br>
+    </div>
+
+    <div style="margin-bottom:20px;"> 
+      <img class="pull-center" src="http://www.nanoboat.in/Images/refer.png" img-responsive></br>
+      <p class="pull-left" style="margin-bottom: 20px;">Refer good people like you and get rewarded INR 200 each time.*</p></br>
+       <p class="pull-right">*Ask you friend to mention your Email ID in "Who Referrred you" section.</p></br>
+      <hr style="color:black;">
+
+    </div>
+
+    <div> 
+      <br><p class="pull-left" style="margin-bottom: 20px;">- Nano boat</p></br>
+    </div>
+
+    
+  
+</div>
+
+
+
+</body>
+</html>
